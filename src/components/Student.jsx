@@ -6,7 +6,7 @@ import Rectangle26 from '../components/assests/images/Rectangle26.png'
 import Vector from '../components/assests/images/Vector1.png'
 
 const FeedbackCard = ({ image, name, title, text }) => (
-  <div className='bg-white rounded-[20px] p-4 md:p-6 flex flex-col justify-between w-full md:w-[350px] h-auto md:h-[300px]' data-testid="feedback-card">
+  <div className='bg-white rounded-[20px] p-4 md:p-6 flex flex-col justify-between w-full font-custom md:w-[350px] h-auto md:h-[300px]' data-testid="feedback-card">
     <div className='flex flex-col md:flex-row justify-between items-start'>
       <div className='flex items-center gap-3 md:gap-5'>
         <img src={image} alt={name} className='w-14 h-14 md:w-20 md:h-20 object-cover' />
@@ -19,17 +19,17 @@ const FeedbackCard = ({ image, name, title, text }) => (
     </div>
     <p className='text-[#363A3D] text-xs md:text-base mt-3'>{text}</p>
   </div>
-)
+);
 
 const Student = () => {
   return (
-    <div className="max-w-screen-lg bg-[#F8F4FF] mx-auto px-4 py-8 md:px-8 md:py-12 flex flex-col items-center text-[#6D737A]">
-      <div className='text-center mb-6 md:mb-10'>
-        <h1 className='text-xl md:text-2xl font-bold'>Student <span className='text-[#000080]'>Feedback</span></h1>
+    <div className="max-w-full bg-[#F8F4FF] mx-auto px-4 py-8 md:px-8 md:py-12 flex flex-col items-center text-[#6D737A] justify-center font-custom">
+      <div className='ml-10 mb-6 md:mb-10'>
+        <h1 className='text-2xl md:text-4xl font-bold'>Student <span className='text-[#000080]'>Feedback</span></h1>
         <h2 className='text-[#6D737A] text-xs md:text-base mt-2'>Various versions have evolved over the years, sometimes by accident,</h2>
       </div>
 
-      <div className='flex items-center gap-4 mb-6 md:mb-8'>
+      <div className='flex gap-2 items-center'>
         <div aria-label="Previous feedback" className='bg-[#FFFFFF] w-6 h-6 rounded-full flex items-center justify-center cursor-pointer'>
           <RxCaretLeft size={20} className='md:w-8 md:h-8' />
         </div>
@@ -60,15 +60,17 @@ const Student = () => {
         </div>
       </div>
 
-      <div className='flex items-center space-x-2'>
-        <div className='bg-[#FFC27A] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
-        <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
-        <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
-        <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
-        <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+      <div className='flex justify-center mt-4'>
+        <div className='flex items-center space-x-2'>
+          <div className='bg-[#FFC27A] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+          <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+          <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+          <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+          <div className='bg-[#CFD3D6] w-3 h-3 md:w-4 md:h-4 rounded-full'></div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Student;

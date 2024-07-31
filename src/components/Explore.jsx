@@ -8,12 +8,12 @@ import { SlSocialBehance } from "react-icons/sl";
 
 function Explore() {
   return (
-    <div className='bg-[#36013F] max-w-[1400px]mx-auto px-4 py-10 flex flex-col items-center justify-center'>
+    <div className='bg-[#36013F] max-w-full mx-auto px-4 py-6 flex flex-col items-center justify-center font-custom'>
       <div className='flex flex-wrap items-center justify-center gap-8'>
 
-        <div className='text-[16px] text-[#CFD3D6]'>
-          <h1 className='text-[24px] text-[#FFFFFF]'>Contact</h1>
-          <h4 className='py-1'>Call: +123 400 123</h4>
+        <div className='text-[16px] text-[#CFD3D6] '>
+          <h1 className='text-[24px] text-[#FFFFFF] py-2'>Contact</h1>
+          <h4 className='py-2'>Call: +123 400 123</h4>
           <h4 className='py-1'>Present all messages, here</h4>
           <h4 className='py-1'>All our social media are available</h4>
           <h4 className='py-1'>Email: example@gmail.com</h4>
@@ -46,7 +46,7 @@ function Explore() {
           <h4 className='py-1'>Become our Partner</h4>
         </div>
 
-        <div className='text-[16px] text-[#CFD3D6]'>
+        <div className='text-[16px] text-[#CFD3D6] '>
           <h1 className='text-[24px] text-[#FFFFFF]'>Category</h1>
           <h4 className='py-1'>Design</h4>
           <h4 className='py-1'>Development</h4>
@@ -57,14 +57,14 @@ function Explore() {
         </div>
 
         <div className='text-[16px] text-[#CFD3D6] w-[200px]'>
-          <h1 className='text-[#FFFFFF] text-[24px]'>Subscribe</h1>
+          <h1 className='text-[#FFFFFF] text-[24px] mt-6'>Subscribe</h1>
           <p className='py-2 '>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           <input
             type='text'
             placeholder='Email here'
-            className='rounded-[24px] mt-4 w-[312px] h-[57px] flex items-center px-4 text-black'
+            className='rounded-[24px] mt-4 w-[312px] h-[50px] flex items-center px-4 text-black'
           />
-          <button className='bg-[#FFA63A] text-[16px] text-white rounded-full w-[203px] h-[48px] px-4 py-3 mt-4'>
+          <button className='bg-[#FFA63A] text-[16px] text-white rounded-full w-[200px] h-[46px] px-4 py-3 mt-4'>
             Subscribe Now
           </button>
         </div>

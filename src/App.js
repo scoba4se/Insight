@@ -12,6 +12,7 @@ import Student from './components/Student';
 import Logo from './components/Logo';
 import Join from './components/Join';
 import Explore from './components/Explore';
+import Steps from './components/Steps';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Insight />
       <Course />
       <Most />
+      <Steps />
       <Best />
       <Student />
       <Logo />
