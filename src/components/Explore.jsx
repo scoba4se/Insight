@@ -56,13 +56,13 @@ function Explore() {
           <h4 className='py-1'>Photography</h4>
         </div>
 
-        <div className='text-[16px] text-[#CFD3D6] w-[200px]'>
+        <div className='text-[16px] text-[#CFD3D6] w-[200px] '>
           <h1 className='text-[#FFFFFF] text-[24px] mt-6'>Subscribe</h1>
           <p className='py-2 '>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           <input
             type='text'
             placeholder='Email here'
-            className='rounded-[24px] mt-4 w-[312px] h-[50px] flex items-center px-4 text-black'
+            className='rounded-[24px]  mt-4 w-[300px] h-[50px] flex items-center px-4 text-black'
           />
           <button className='bg-[#FFA63A] text-[16px] text-white rounded-full w-[200px] h-[46px] px-4 py-3 mt-4'>
             Subscribe Now

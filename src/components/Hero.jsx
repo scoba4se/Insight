@@ -6,7 +6,7 @@ import { CiPlay1 } from "react-icons/ci";
 
 function Hero(props) {
   return (
-    <div className='font-sans  relative max-w-full mx-auto py-2 flex flex-col md:flex-row justify-center items-center px-10 text-center md:text-left font-custom'
+    <div className='  relative max-w-full mx-auto py-2 flex flex-col md:flex-row justify-center items-center px-10 text-center md:text-left font-custom'
     style={{ background: 'linear-gradient(90deg, #000080, #000000)' }}>
       <div className='flex flex-col items-center md:items-start space-y-2'>
         <h3 className='text-[#FFA63A] text-xl'>Dare the impossible, stay ahead in style</h3>
