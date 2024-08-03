@@ -8,7 +8,7 @@ import { PiGraduationCapLight } from "react-icons/pi";
 
 function Icon(props) {
   return (
-    <div className='max-w-full bg-[#F1F2F8]   mx-auto px-4 py-8 flex flex-col items-center justify-center text-Stem-Regular font-custom'>
+    <div className='max-w-full bg-[#F1F2F8]   mx-auto px-4 py-8 flex flex-col items-center justify-center text-Stem-Regular font-custom mt-6'>
       <div className='flex flex-wrap items-center justify-center gap-20 '>
         <div className='flex items-center mb-4 p-4 hover:shadow-lg rounded-lg'>
           <div className='bg-gradient-to-b from-[#2AF9B1] to-[#20B486] rounded-full h-[84px] w-[84px] flex items-center justify-center'>
